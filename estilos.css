@@ -20,36 +20,30 @@
         margin-top:0px;
     }
         .menu{
-            /* background: #544179; */
-            /* background-color: rgb(84,65,121); */
+           
             background-color: rgb(45,64,89);
             display:flex;
             flex-flow: row nowrap;
         }
-            .logo{
-                /* background: #17D7A0; */
+            .logo{               
                 background-color: rgb(234,84,85);
                 flex: 1 1 auto;
 
             }
-            .nav{
-                /* background: #17D7A0; */
+            .nav{               
                 background-color: rgb(234,84,85);
                 flex:5 1 auto;
 
             }
-            .social{
-                /* background: #17D7A0; */
+            .social{               
                 background-color: rgb(234,84,85);
                 flex:1 1 auto;
 
             }
-        .texto-principal{
-            /* background:#6166B3; */
+        .texto-principal{           
             background-color: rgb(240,123,63);
         }
-            h1{
-                /* background:#FBF46D; */
+            h1{              
                 background-color: rgb(254,212,96);
             }
 
@@ -59,24 +53,24 @@
            
     }
         .articulos {
-            /* background: #B4FE98; */
+            
             background-color: rgb(78,78,106);
             flex:2 1 auto;
             display:flex;
             flex-flow: row wrap;
         }
             .article{
-                /* background: #998CEB; */
+                
                 background-color: rgb(31,108,176);
                 flex:1 1 40%;
             }
             .navegacion{
-                background:#1F1D36;
+               
                 background-color: rgb(112,163,196);
                 flex:1 1 100%;
             }
             .aside{
-                /* background:#1F1D36; */
+                
                 background-color: rgb(247,63,82);
                 flex:1 1 auto;
             }
@@ -88,7 +82,7 @@
         background-color: black;
     }
         .pie{
-            /* background:#3F3351; */
+           
             background-color: rgb(230,175,46);
         }
 
@@ -96,8 +90,7 @@
 
         @media all and (max-width: 800px){
             .section {
-                flex-direction:column;
-                /* background-color:yellow; */
+                flex-direction:column;               
                 background-color: rgb(254,255,3);
             }
             /* .menu{
