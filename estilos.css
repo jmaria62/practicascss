@@ -8,7 +8,8 @@
 .padre{
     display:flex;
     flex-flow: column nowrap;
-    max-width:1400px;
+    max-width:1200px;
+    /* @media only screen and (max-width:1200px) */
     margin-top:0px;
     padding-top:0px;
 
@@ -88,19 +89,20 @@
 
         
 
-        @media all and (max-width: 800px){
+        @media all and (max-width: 768px){
             .section {
                 flex-direction:column;               
                 background-color: rgb(254,255,3);
             }
-            /* .menu{
+             .menu{
                 flex-direction: column;
                 height:auto;
             }
             .aside{
                 display:flex;
-                justify-content:center;
-            } */
+                flex-direction:column;
+                /* justify-content:center; */
+            } 
         }
 
         @media all and (max-width:600px){
