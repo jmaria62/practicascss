@@ -1,7 +1,24 @@
 *{
-    margin:10px;
+    margin:0px;
     padding:10px;
     box-sizing: border-box;
+    
+    
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#343434;
+}
+.logo a:hover{
+    color:#343434;
+    
     
 }
 
@@ -15,38 +32,65 @@
 
 }
     .header{
-        background-color: black;
+        /* background-color: black; */
+        background: url(images/header.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
         display:flex;
         flex-flow: column nowrap;
         margin-top:0px;
+        height: 400px;
+        justify-content: space-between;
+        
+        
     }
         .menu{
            
-            background-color: rgb(45,64,89);
+            
+            background:rgba(0,0,0,.1);
             display:flex;
             flex-flow: row nowrap;
+            padding-top: 0px;
+            margin-top: 0px;
+            border-bottom: 1px solid rgba(255,255,255,.5);
+            height: 60px;
+            
         }
             .logo{               
-                background-color: rgb(234,84,85);
-                flex: 1 1 auto;
-
+               
+               
+                align-self: center;
+                
             }
+                .imagen-logo{
+                
+                    width: 50px;
+                    height: 50px;
+                }
             .nav{               
-                background-color: rgb(234,84,85);
+               
                 flex:5 1 auto;
 
             }
             .social{               
-                background-color: rgb(234,84,85);
+               
                 flex:1 1 auto;
+                display: flex;
 
             }
-        .texto-principal{           
-            background-color: rgb(240,123,63);
-        }
-            h1{              
-                background-color: rgb(254,212,96);
+        
+            h1{
+                background-color: rgba(0,0,0,.1); 
+              
+                align-items: center;
+                height: 200px;
             }
+        .texto-principal h1{
+           
+            text-align: center;
+            color:rgb(232,181,161);
+        }
 
     .section{
         background-color: black;
@@ -63,8 +107,33 @@
             .article{
                 
                 background-color: rgb(31,108,176);
-                flex:1 1 40%;
+                flex:1 1 45%;
+                margin: 10px 10px 0 0;
+
+                /* img{
+                    width: 100%;
+                } */
             }
+            h3{
+                margin-top: -60px;
+                color:aliceblue;
+            }
+            h2{
+                color:aliceblue;
+                background-color:rgb(240,128,128);
+                margin: 0px 0px 0px 0px;
+               
+            }
+
+                .imagen {
+                    /* width:400px; */
+                    height:200px;
+                    width:100%;
+                    padding: 0px;
+                   
+                }
+
+            
             .navegacion{
                
                 background-color: rgb(112,163,196);
@@ -84,7 +153,10 @@
     }
         .pie{
            
-            background-color: rgb(230,175,46);
+            /* background-color: rgb(230,175,46); */
+            text-align:center;
+            color:aliceblue;
+            
         }
 
         
